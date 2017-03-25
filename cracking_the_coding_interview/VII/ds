@@ -1,0 +1,64 @@
+
+Linked Lists
+
+    - Singly linked list
+        - O(1) insert/remove front
+        - O(n) insert/remove  back
+        - O(k) insert/remove at pos k
+        - O(n) search
+    - Double linked list
+        - O(1) insert/remove front
+        - O(1) insert/remove back
+        - O(k) insert/remove at pos k 
+        - O(n) search
+        - O(n) remove
+
+Trees, Tries, and Graphs
+
+    - Balanced Tree
+        - O(log(n)) search
+        - O(log(n)) insert 
+        - O(log(n)) remove
+
+    - Unbalanced Tree
+        - O(n) search
+        - O(n) insert 
+        - O(n) remove
+
+    - Trie (k is length of string)
+        - O(k) Insert
+        - O(k) Remove
+        - O(k) Search
+
+    - Graph (hmmm)
+        - O(n) Search
+        - O(n) Remove 
+        - O(n) Insert node
+
+Stacks and Queues
+
+     - Stack
+        - O(1) Insert
+        - O(1) Remove 
+
+     - Queue
+        - O(1) Insert
+        - O(1) Remove 
+
+Heaps
+
+    - O(log(n)) insert
+    - O(log(n)) remove min/max 
+    - O(log(n)) find min/max 
+
+Vectors / ArrayLists
+
+    - amortized O(1) append
+    - amortized O(1) remove last 
+
+Hash Tables
+
+    - average O(1) insert
+    - average O(1) find 
+    - average O(1) remove 
+

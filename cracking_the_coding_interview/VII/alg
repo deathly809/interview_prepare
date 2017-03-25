@@ -1,0 +1,32 @@
+
+Breadth First Search
+ 
+    Search nearer nodes first
+
+Depth First Search
+
+    Try to go as far as you can first
+
+Binary Search
+
+    Using sorted data try to find an element in O(log(n))
+
+Merge Sort
+
+    Split the data in half, sort the halves recursively.
+
+    nlog(n) sorting time.  With small enough data use insertion sort.
+
+    Can be made stable by mergin value of left partition before right partition if equal.
+
+Quick Sort
+
+    Find an element in the array and partition the data using this element such
+    that values that are "less than" the element are placed to the left and values
+    that are "greater than or equal" are placed to the right of the elements.
+
+    Recursively sort the left and right partitions.
+
+    Can guarantee nlog(n) sorting time using median of medians.
+
+    Can be made stable using extra space.
